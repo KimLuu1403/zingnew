@@ -1,0 +1,34 @@
+.formLoginCss {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 60px;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #a9ba9d, #c4c3d0);
+    box-shadow: 2;
+}
+
+.formLoginCss button {
+    width: 100%;
+}
+
+.formLoginCss h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.formLoginCss img {
+    width: 40px;
+    height: 40%;
+    border-radius: 70px;
+    cursor: pointer;
+    margin: 4px;
+}
+.div-full {
+    background-image: url("https://wallpaperaccess.com/full/2637581.jpg");
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}

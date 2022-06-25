@@ -1,0 +1,62 @@
+.admin-page {
+    display: flex;
+}
+.table-admin {
+    width: 100%;
+}
+.menu-admin-page {
+    background-image: linear-gradient(100deg, #cdffb6, #ffb98b);
+}
+.menu-admin-page h3 {
+    font-size: 20px;
+    padding-top: 90px;
+    padding-left: 20px;
+}
+.header-admin-page {
+    background: linear-gradient(90deg, #282830, #302b1a );
+    display: flex;
+}
+.header-admin-page h4 {
+    padding-left: 60px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    animation: shine 7s linear infinite;
+    position: relative;
+}
+.img-table {
+    width: 12%;
+}
+.table-admin-page {
+    background-color: #89ff9b;
+    animation: bg-table 4s linear infinite;
+}
+.switch-show {
+    background-color: #91a1ff !important;
+}
+tr:nth-child(even) {
+    background-color: #dcffe2;
+}
+th {
+    background-color: #5b966a !important;
+}
+
+@keyframes bg-table {
+    from {background-color: #89ff9b;}
+    to {background-color: #ffd796;}
+}
+@keyframes shine {
+    0% {
+      background-position-x: -600%;
+    }
+    100% {
+      background-position-x: 600%;
+    }
+}
